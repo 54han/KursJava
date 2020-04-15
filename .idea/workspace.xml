@@ -40,14 +40,17 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Exercise6">
-    <configuration name="Exercise1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.loops.Exercise1" />
+  <component name="RunManager" selected="Application.Exercise1">
+    <configuration name="AverageTemperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.primitivetypes.AverageTemperature" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.loops.*" />
+          <option name="PATTERN" value="com.javacourse.primitivetypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.loops.Exercise3" />
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.primitivetypes.Exercise1" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.loops.*" />
+          <option name="PATTERN" value="com.javacourse.primitivetypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +111,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Exercise1 (1)" />
-      <item itemvalue="Application.Exercise3 (1)" />
       <item itemvalue="Application.Exercise4" />
       <item itemvalue="Application.Exercise5" />
       <item itemvalue="Application.Exercise6" />
+      <item itemvalue="Application.AverageTemperature" />
+      <item itemvalue="Application.Exercise1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise1" />
+        <item itemvalue="Application.AverageTemperature" />
         <item itemvalue="Application.Exercise6" />
         <item itemvalue="Application.Exercise5" />
         <item itemvalue="Application.Exercise4" />
-        <item itemvalue="Application.Exercise3 (1)" />
-        <item itemvalue="Application.Exercise1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586447812592</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Loops + exercises">
+      <created>1586970762244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586970762245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,33 +174,38 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Arrays" />
     <MESSAGE value="Arrays exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays exercises" />
+    <MESSAGE value="Loops + exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loops + exercises" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1586447811953">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1586970761361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586447811953" />
-    <state width="1921" height="282" key="GridCell.Tab.0.bottom" timestamp="1586970712910">
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586970761361" />
+    <state width="1921" height="282" key="GridCell.Tab.0.bottom" timestamp="1586977454813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586970712910" />
-    <state width="1921" height="282" key="GridCell.Tab.0.center" timestamp="1586970712910">
+    <state width="1921" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586977454813" />
+    <state width="1921" height="282" key="GridCell.Tab.0.center" timestamp="1586977454813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586970712910" />
-    <state width="1921" height="282" key="GridCell.Tab.0.left" timestamp="1586970712910">
+    <state width="1921" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586977454813" />
+    <state width="1921" height="282" key="GridCell.Tab.0.left" timestamp="1586977454813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586970712910" />
-    <state width="1921" height="282" key="GridCell.Tab.0.right" timestamp="1586970712910">
+    <state width="1921" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586977454813" />
+    <state width="1921" height="282" key="GridCell.Tab.0.right" timestamp="1586977454813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586970712910" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586447823678">
+    <state width="1921" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586977454813" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1586975652282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586447823678" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586975652282" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586970766301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586970766301" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586963503327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
