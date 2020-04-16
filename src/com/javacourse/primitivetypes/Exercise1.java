@@ -9,25 +9,33 @@ import java.util.Scanner;
 
 public class Exercise1 {
 
-    public static void getNotesFromUser(int numberOfClasses, int numberOfNotes) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main (String[]args) {
+
+        int numberOfClasses = 3;
+        int numberOfNotes = 4;
+        float totalAvg = 0;
         int[][] notes = new int[numberOfClasses][numberOfNotes];
-        for (int classIndex = 0; classIndex < numberOfClasses; classIndex++){
+
+        // get notes from user
+        Scanner scanner = new Scanner(System.in);
+        for (int classIndex = 0; classIndex < numberOfClasses; classIndex++) {
             for (int noteIndex = 0; noteIndex < numberOfNotes; noteIndex++) {
-                System.out.println("Podaj ocenę numer: " + (noteIndex+1) + " dla przedmiotu numer: " + (classIndex+1) + ": ");
+                System.out.println("Podaj ocenę numer: " + (noteIndex + 1) + " dla przedmiotu numer: " + (classIndex + 1) + ": ");
                 notes[classIndex][noteIndex] = scanner.nextInt();
             }
         }
+
+        // calc and print average
+        for (int classIndex = 0; classIndex < numberOfClasses; classIndex++) {
+            float classAvg = 0;
+            for (int note : notes[classIndex]) {
+                classAvg += note;
+            }
+            classAvg /= numberOfNotes;
+            System.out.println("Srednia dla przedmiotu numer: " + (classIndex+1) + " wynosi: " + classAvg);
+            totalAvg += classAvg;
+        }
+        totalAvg /= numberOfClasses;
+        System.out.println("Srednia dla wszystkich przedmiotow wynosi: " + totalAvg);
     }
-
-    public static void printAverage(int numberOfClasses, int numberOfNotes) {
-
-    }
-
-    public static void main(String[] args) {
-        int numberOfClasses = 3;
-        int numberOfNotes = 4;
-        getNotesFromUser(numberOfClasses, numberOfNotes);
-    }
-
 }
