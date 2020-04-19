@@ -3,6 +3,10 @@ package com.javacourse;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Punkt punkt = new Punkt();
+        punkt.ustawX(10);
+        punkt.ustawY(20);
+
+        System.out.println("Współrzędne to: ("+ punkt.dajX() + ","+ punkt.dajY() +")");
     }
 }

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a8da3e8-6de1-4914-92ce-12e363852252" name="Default Changelist" comment="">
+    <list default="true" id="8a8da3e8-6de1-4914-92ce-12e363852252" name="Default Changelist" comment="Dokonczenie Exercise1 z primitivetypes; Interfejsy;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javacourse/primitivetypes/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javacourse/primitivetypes/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava/com/javacourse/primitivetypes/Exercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KursJava/com/javacourse/primitivetypes/Exercise1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javacourse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javacourse/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javacourse/interfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javacourse/interfaces/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,31 +23,63 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\peles\IdeaProjects\KursJava\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1aIi2NG5iAy72lwd9tVdSQaQSda" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Firma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.inheritance.firma.Firma" />
+      <module name="KursJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse.inheritance.firma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.inheritance.exercise.Main" />
+      <module name="KursJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse.inheritance.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.Main" />
+      <module name="KursJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javacourse.interfaces.Main" />
       <module name="KursJava" />
@@ -59,6 +93,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.inheritance.Main" />
+      <module name="KursJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse.inheritance.firma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Firma" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Firma" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586978701664</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dokonczenie Exercise1 z primitivetypes; Interfejsy;">
+      <created>1587050282720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587050282720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,41 +191,66 @@
     <MESSAGE value="Arrays exercises" />
     <MESSAGE value="Loops + exercises" />
     <MESSAGE value="PrimitiveTypes + exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrimitiveTypes + exercise" />
+    <MESSAGE value="Dokonczenie Exercise1 z primitivetypes; Interfejsy;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dokonczenie Exercise1 z primitivetypes; Interfejsy;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587050222926">
+    <state x="657" y="139" key="#Car" timestamp="1587287649976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050222926" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1586978700980">
+    <state x="657" y="139" key="#Car/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587287649976" />
+    <state x="657" y="139" key="#Main_(1)" timestamp="1587287782708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586978700980" />
-    <state width="1921" height="282" key="GridCell.Tab.0.bottom" timestamp="1587050192120">
+    <state x="657" y="139" key="#Main_(1)/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587287782708" />
+    <state x="657" y="139" key="#Unnamed" timestamp="1587287613490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050192120" />
-    <state width="1921" height="282" key="GridCell.Tab.0.center" timestamp="1587050192120">
+    <state x="657" y="139" key="#Unnamed/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587287613490" />
+    <state x="657" y="139" key="#UstawPunkt" timestamp="1587301816734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050192120" />
-    <state width="1921" height="282" key="GridCell.Tab.0.left" timestamp="1587050192120">
+    <state x="657" y="139" key="#UstawPunkt/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587301816734" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587301867797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050192120" />
-    <state width="1921" height="282" key="GridCell.Tab.0.right" timestamp="1587050192120">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587301867797" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1587302402076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050192120" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587302402076" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587301406212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587301406212" />
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1587050281619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050281619" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1587312478509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312478509" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1587312478508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312478508" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1587312478508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312478508" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1587312478508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312478508" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1587044946944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587044946944" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586978706550">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587050286510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586978706550" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050286510" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587042995239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,5 +259,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="139" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587043749850" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587302565181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587302565181" />
   </component>
 </project>
