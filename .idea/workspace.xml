@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a8da3e8-6de1-4914-92ce-12e363852252" name="Default Changelist" comment="Dokonczenie Exercise1 z primitivetypes; Interfejsy;">
+    <list default="true" id="8a8da3e8-6de1-4914-92ce-12e363852252" name="Default Changelist" comment="inheritance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KursJava/com/javacourse/primitivetypes/Exercise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KursJava/com/javacourse/primitivetypes/Exercise1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javacourse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javacourse/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javacourse/interfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javacourse/interfaces/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava/com/javacourse/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KursJava/com/javacourse/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +38,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Firma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.inheritance.firma.Firma" />
+  <component name="RunManager" selected="Application.Exercise2">
+    <configuration name="CheckedExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.exception.CheckedExceptions" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.inheritance.firma.*" />
+          <option name="PATTERN" value="com.javacourse.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.inheritance.exercise.Main" />
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.exception.Exceptions" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.inheritance.exercise.*" />
+          <option name="PATTERN" value="com.javacourse.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +65,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.Main" />
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.exception.exercise.Exercise1" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.*" />
+          <option name="PATTERN" value="com.javacourse.exception.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.exception.exercise.Exercise2" />
+      <module name="KursJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse.exception.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,18 +117,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.exception.exercise.exercise1" />
+      <module name="KursJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse.exception.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Firma" />
+      <item itemvalue="Application.Exceptions" />
+      <item itemvalue="Application.CheckedExceptions" />
+      <item itemvalue="Application.exercise1" />
+      <item itemvalue="Application.Exercise1" />
+      <item itemvalue="Application.Exercise2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Firma" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Exercise2" />
+        <item itemvalue="Application.Exercise1" />
+        <item itemvalue="Application.exercise1" />
+        <item itemvalue="Application.Exceptions" />
+        <item itemvalue="Application.CheckedExceptions" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587050282720</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="inheritance">
+      <created>1587312498112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587312498112</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,7 +226,8 @@
     <MESSAGE value="Loops + exercises" />
     <MESSAGE value="PrimitiveTypes + exercise" />
     <MESSAGE value="Dokonczenie Exercise1 z primitivetypes; Interfejsy;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dokonczenie Exercise1 z primitivetypes; Interfejsy;" />
+    <MESSAGE value="inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheritance" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="139" key="#Car" timestamp="1587287649976">
@@ -223,42 +258,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587301406212" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1587050281619">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1587312497046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050281619" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1587312478509">
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312497046" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1587477513014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312478509" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1587312478508">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587477513014" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1587477513014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312478508" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1587312478508">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587477513014" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1587477513014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312478508" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1587312478508">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587477513014" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1587477513014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312478508" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587477513014" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1587474948145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587474948145" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1587474948145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587474948145" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1587474948145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587474948145" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1587474948145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587474948145" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1587044946944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587044946944" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587050286510">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587312499967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587050286510" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587312499967" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587042995239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587042995239" />
-    <state x="666" y="139" key="refactoring.ChangeSignatureDialog" timestamp="1587043749850">
+    <state x="666" y="139" key="refactoring.ChangeSignatureDialog" timestamp="1587470418975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="139" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587043749850" />
+    <state x="666" y="139" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587470418975" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587302565181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
