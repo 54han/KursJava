@@ -42,13 +42,13 @@
       <recent name="com.javacourse.cast.exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Human">
-    <configuration name="ComparisonExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.equality.ComparisonExamples" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Computation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.enums.exercises.Computation" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.equality.*" />
+          <option name="PATTERN" value="com.javacourse.enums.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.cast.exercises.Exercise2" />
+    <configuration name="Formatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.enums.Formatter" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.cast.exercises.*" />
+          <option name="PATTERN" value="com.javacourse.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.cast.exercises.Exercise22" />
+    <configuration name="Human (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.enums.exercises.Human" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.cast.exercises.*" />
+          <option name="PATTERN" value="com.javacourse.enums.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.cast.exercises.Exercise3" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.polymorphism.Main" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.cast.exercises.*" />
+          <option name="PATTERN" value="com.javacourse.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacourse.equality.Human" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse.varargs.Main" />
       <module name="KursJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse.equality.*" />
+          <option name="PATTERN" value="com.javacourse.varargs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +136,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Exercise2" />
-      <item itemvalue="Application.Exercise22" />
-      <item itemvalue="Application.Exercise3" />
-      <item itemvalue="Application.ComparisonExamples" />
-      <item itemvalue="Application.Human" />
+      <item itemvalue="Application.Formatter" />
+      <item itemvalue="Application.Human (1)" />
+      <item itemvalue="Application.Computation" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Human" />
-        <item itemvalue="Application.ComparisonExamples" />
-        <item itemvalue="Application.Exercise3" />
-        <item itemvalue="Application.Exercise22" />
-        <item itemvalue="Application.Exercise2" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Computation" />
+        <item itemvalue="Application.Human (1)" />
+        <item itemvalue="Application.Formatter" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587651355525</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="equality, hashCode, equals">
+      <created>1587653965520</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587653965520</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,7 +254,8 @@
     <MESSAGE value="inheritance" />
     <MESSAGE value="Exceptions" />
     <MESSAGE value="objects, casting, conversion + exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="objects, casting, conversion + exercises" />
+    <MESSAGE value="equality, hashCode, equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="equality, hashCode, equals" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="139" key="#Car" timestamp="1587287649976">
@@ -270,34 +278,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587301867797" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1587302402076">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1588705800664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587302402076" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588705800664" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587301406212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587301406212" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1587651354646">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1587653964809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587651354646" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1587653521855">
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587653964809" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1588705878800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587653521855" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1587653521855">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588705878800" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1588705878800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587653521855" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1587653521855">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588705878800" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1588705878800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587653521855" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1587653521855">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588705878800" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1588705878800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587653521855" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588705878800" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1587490950916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,10 +326,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587044946944" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587651357132">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587653973143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587651357132" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587653973143" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587042995239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -330,9 +338,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="139" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587470418975" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587653394058">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588686435695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587653394058" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588686435695" />
   </component>
 </project>
